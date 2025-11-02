@@ -2,7 +2,8 @@
 # NORGINSA – Nettside
 
 Hva som mangler:
-
+- [ ] Legge til favicon.ico i root
+- [ ] Search engine optimisering
 - [X] Fikse visning av "featured articles" på hjemmesiden på mobil - på visse enheter fungerer det ikke.
 - [ ] Legge til oppsummering av NORGINSA-programmet på /about.html siden
 - [ ] Legge til bidragsytere på /about.html siden (utifra hvor mange som faktisk bidrar til siden)
