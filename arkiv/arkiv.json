@@ -1,5 +1,16 @@
 {
   "templates": [
+     {
+      "name": "Kart over INSA",
+      "description": "Kart over INSA",
+      "folder": "kart",
+      "tags": [
+        "Diverse info"
+      ],
+      "author": "Andreas Holmsen",
+      "created": "24-11-2025",
+      "featured": false
+    },
     {
       "name": "Hvorfor skal man like Toulouse?",
       "description": "Oskar forteller hva han synes er bra med Toulouse",
