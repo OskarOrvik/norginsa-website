@@ -48,8 +48,6 @@
   </script>
   <script src="assets/js/navbar.js"></script>
 
-  <div class="pt-24"></div>
-
   <section class="text-center py-12 bg-red-600 text-white">
     <h1 class="text-4xl font-bold mb-2">Søk i Arkivet</h1>
     <p class="text-lg">Finn alt fra gamle studenthistorier og tips til første skoledag til de snodigste tradisjonene i Toulouse!</p>
@@ -266,13 +264,34 @@
           }).slice(0, currentPage * pageSize);
         }
 
+        // Get the total number of filtered articles (without slicing)
+        function getFilteredTemplates(data) {
+          const selectedAuthor = authorFilter.value;
+          const searchQuery = document.getElementById("searchInput").value.trim().toLowerCase();
+
+          return data.filter(template => {
+            const tagMatch = activeTags.length === 0 || activeTags.every(tag => template.tags.includes(tag));
+            const authorMatch = !selectedAuthor || template.author === selectedAuthor;
+            const searchMatch = template.name.toLowerCase().includes(searchQuery) || template.description.toLowerCase().includes(searchQuery);
+            return tagMatch && authorMatch && searchMatch;
+          });
+        }
+
         function renderTemplates(list, append = false) {
           if (!append) grid.innerHTML = "";
           if (list.length === 0) {
             grid.innerHTML = `<p class="text-center col-span-full text-gray-500">No templates found.</p>`;
             return;
           }
-          list.forEach(t => {
+
+          // Only add new articles when appending
+          let itemsToRender = list;
+          if (append) {
+            const start = (currentPage - 1) * pageSize;
+            itemsToRender = list.slice(start, start + pageSize);
+          }
+
+          itemsToRender.forEach(t => {
             const card = document.createElement("div");
             card.className = "bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col h-full";
             card.innerHTML = `
@@ -301,7 +320,8 @@
           });
 
           // Show/hide Load More button
-          if ((currentPage * pageSize) >= getPageTemplates(templates).length) {
+          const totalFiltered = getFilteredTemplates(templates).length;
+          if ((currentPage * pageSize) >= totalFiltered) {
             loadMoreBtn.classList.add("hidden");
           } else {
             loadMoreBtn.classList.remove("hidden");
