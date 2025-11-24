@@ -2,7 +2,6 @@
 # NORGINSA – Nettside
 
 Hva som mangler:
-- [ ] Legge til favicon.ico i root
 - [ ] Search engine optimisering
 - [ ] Legge til oppsummering av NORGINSA-programmet på /about.html siden
 - [ ] Passe på at tekstboksen i /arkiv.html er trygg og ikke kan ødelegge siden
@@ -136,6 +135,7 @@ Legg til denne informasjonen
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>ARTIKKELNAVN – NORGINSA</title>
+      <link rel="icon" type="image/x-icon" href="../../assets/images/icon.ico">
 
       <!-- Tailwind + AOS CSS -->
       <link rel="stylesheet" href="../../assets/css/article.css">
