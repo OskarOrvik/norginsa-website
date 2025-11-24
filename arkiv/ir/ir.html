@@ -1,0 +1,122 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="en" class="scroll-smooth">
+
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>IR – NORGINSA</title>
+
+      <!-- Tailwind + AOS CSS -->
+      <link rel="stylesheet" href="../../assets/css/article.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <script>tailwind.config = { darkMode: 'class' }</script>
+    </head>
+
+    <body
+      class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300 relative font-sans">
+
+      <!-- Navbar -->
+      <div id="navbar"></div>
+      <script src="../../assets/js/getNavbar.js"></script>
+      <script>document.getElementById("navbar").innerHTML = getArtikkelNavbarHTML();</script>
+      <script src="../../assets/js/navbar.js"></script>
+
+
+    <!-- ======= TITTEL ======= -->
+      <section class="fade-down-anim max-w-7xl mx-auto px-4">
+        <div class="rounded-2xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800">
+          <div class="px-6 py-16 text-center">
+            <p class="inline-flex items-center gap-2 text-sm font-medium text-red-600 dark:text-red-400">
+              SIST OPPDATERT: 24-11-2025
+            </p>
+            <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold tracking-tight">
+                Informatique et Réseaux
+            </h1>
+            <p class="mt-3 text-base sm:text-lg text-gray-600 dark:text-gray-300">
+              SKREVET AV: Andreas Holmsen
+            </p>
+          </div>
+        </div>
+      </section>
+
+    
+    
+  <div class="mx-2 md:mx-0">
+    <!-- ======= HELT VANLIG AVSNITT ======= -->
+<div class="fade-down-anim max-w-4xl mx-auto my-12">
+    <h2 class="text-2xl font-bold mb-4">Introduksjon</h2>
+    <p class="mb-4">
+        Etter to år med <a class="text-red-600 hover:text-red-800" href="../mic/mic.html">MIC</a> 
+        begynner man på IR, som oftest er i GEI sammen med AE (en spesialisering til IMACS).
+        Programmet er preget av mye informatikk, nettverk, og fortsatt litt elektronikk (mer spesifikt mikrokontrollere).
+        Det er enda mer prosjektarbeid, og færre forelesninger og eksamner. 
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4">SI og SC</h2>
+    <p class="mb-4">
+        Før man begynner i 4. klasse har man valget mellom SI (Systèmes Informatiques) og SC (Systèmes communicants).
+        SI har mer fokus på koding og nettverk, mens SC har mer fag innen telekommunikasjon.
+        <u>Dette valget har ingenting å si for 5. klasse.</u>
+    </p>
+
+    <p>Fagene til SC og SI for året finner man her: </p>
+    <ul class="list-disc list-inside pl-8 space-y-2 mt-4">
+        <li> <a class="text-red-600 hover:text-red-800" href="./assets/Maquette_SI.xlsx">Systèmes Informatiques</a></li>
+        <li> <a class="text-red-600 hover:text-red-800" href="./assets/Maquette_SC.xlsx">Systèmes communicants</a></li>
+    </ul>
+</div>
+
+<div class="fade-down-anim max-w-4xl mx-auto my-12">
+    <h2 class="text-2xl font-bold mb-4">5. Klasse</h2>
+
+    <p class="mb-4">
+        I 5. Klasse kan man velge en rekke spesialiseringer, noen sammen med AE:
+
+        <ul class="list-decimal list-inside pl-8 space-y-2 mt-4 mb-4">
+            <li>SDBD (Systèmes Distribués et Big data)</li>
+            <li>SIEC (Systèmes Informatiques Embarqués Critiques)</li>
+            <li>TLS-SEC (Sécurité) - OBS! Dobbeltdiplom med skolen ENSEEIHT</li>
+
+        </ul>
+
+        <p class="mb-4">
+             Det finnes også fordypninger som enda flere departementer kan ta, kalt PTP (Parcours Transverses Pluridisciplinaires)
+        </p>
+       
+        <ul class="list-decimal list-inside pl-8 space-y-2 mt-4 mb-4">
+            <li>ISS (Innovative Smart Systems)</li>
+            <li>IS (Ingénierie Systèmes)</li>
+            <li>PTP Risk Engineering</li>
+            <li>PTP Energie</li>
+        </ul>
+
+    <p class="mb-4"> <u>
+         Informasjon er vanskeligere å finne, men det kan være nyttig å lete på <a class="text-red-600 hover:text-red-800" href="https://gei.insa-toulouse.fr/fr/index.html">gei.insa-toulouse.fr</a> og Moodle under GEI-mappen.
+    </u></p>
+   
+
+
+
+  </div>
+
+
+      <!-- Footer Container -->
+      <div id="footer"></div>
+      <script src="../../assets/js/getFooter.js"></script>
+      <script>document.getElementById("footer").innerHTML = getFooterHTML();</script>
+
+      <!-- Floating Theme Toggle Button -->
+      <div id="floatingButton"></div>
+      <script src="getFloatingButton.js"></script>
+      <script>document.getElementById("floatingButton").innerHTML = getFloatingButton();</script>
+
+
+      <!-- Scripts -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="../bunnscript.js"></script>
+    </body>
+
+    </html>

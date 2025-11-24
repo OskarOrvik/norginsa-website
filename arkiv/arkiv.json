@@ -23,6 +23,17 @@
       "featured": false
     },
     {
+      "name": "IR",
+      "description": "Informasjon om spesialiseringen IR",
+      "folder": "ir",
+      "tags": [
+        "Studiet"
+      ],
+      "author": "Andreas Holmsen",
+      "created": "24-11-2025",
+      "featured": true
+    },
+    {
       "name": "MIC",
       "description": "Informasjon om PO'en MIC",
       "folder": "mic",
