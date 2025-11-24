@@ -9,6 +9,17 @@
       ],
       "author": "Brage Johnsen",
       "created": "24-11-2025",
+      "featured": true 
+    },
+    {
+      "name": "Sommerlunsj",
+      "description": "Tekna Toulouse sitt mest solfylte arrangement!",
+      "folder": "sommerlunsj",
+      "tags": [
+        "Tradisjoner"
+      ],
+      "author": "Andreas Holmsen",
+      "created": "07-10-2025",
       "featured": true
     },
     {
