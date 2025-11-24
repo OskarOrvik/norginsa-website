@@ -1,5 +1,16 @@
 {
   "templates": [
+    {
+      "name": "Hvorfor skal man like Toulouse?",
+      "description": "Oskar forteller hva han synes er bra med Toulouse",
+      "folder": "hvorforliketoulouse",
+      "tags": [
+        "Studenthistorier"
+      ],
+      "author": "Oskar Orvik",
+      "created": "09-11-2025",
+      "featured": true
+    },
      {
       "name": "NoTail",
       "description": "Et ellevillt barprosjekt i en promololeilighet",
