@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pyrra - NORGINSA</title>
+
+  <!-- Tailwind + AOS CSS -->
+  <link rel="stylesheet" href="../../assets/css/article.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script>tailwind.config = { darkMode: 'class' }</script>
+</head>
+
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300 relative font-sans">
+
+  <!-- Navbar -->
+  <div id="navbar"></div>
+  <script src="../../assets/js/getNavbar.js"></script>
+  <script>document.getElementById("navbar").innerHTML = getArtikkelNavbarHTML();</script>
+  <script src="../../assets/js/navbar.js"></script>
+
+<!-- ======= TITTEL ======= -->
+  <section class="fade-down-anim max-w-7xl mx-auto px-4">
+    <div class="rounded-2xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800">
+     
+      <a href="images/preview.jpg" target="_blank" rel="noopener">
+	<div class="relative w-full mx-auto p-6">
+    
+	  <img class="fade-down-anim w-full sm:w-3/4 mx-auto h-auto rounded-lg shadow glowing"
+	       src="images/preview.jpg" alt="Article image">
+	  <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+	    <!-- Title -->
+       <p style="font-family: 'Times New Roman', serif;" class="p-6 inline-flex items-center text-xs sm:text-xl text-white dark:text-white-400">
+          
+        </p>
+         <p style="font-family: 'Times New Roman', serif;" class="p-6 inline-flex items-center text-xs sm:text-xl text-white dark:text-white-400">
+          
+        </p>
+	    <h1 class="text-white text-6xl sm:text-6xl lg:text-8xl font-extrabold drop-shadow-lg"
+		style="font-family: 'Times New Roman', serif;">
+	      Pyrra
+	    </h1>
+	    
+	    <!-- Subtitle --> 
+	    <p class="mt-2 text-white text-sm sm:text-2xl drop-shadow-lg"
+	       style="font-family: 'Times New Roman', serif;">
+	      SKREVET AV:
+	    </p>
+	    <p class="mt-0 text-white text-2xl sm:text-2xl drop-shadow-lg"
+	       style="font-family: 'Times New Roman', serif;">
+	      <b>Brage Flønæs Johnsen</b>
+	    </p>
+      <p style="font-family: 'Times New Roman', serif;" class="inline-flex items-center text-xs sm:text-lg text-white dark:text-white-400">
+        Sist Oppdatert: 24.11.2025
+      </p>
+	  </div>
+	  
+	</div>
+    </div>
+      </section>
+
+    
+
+  <div class="mx-2 md:mx-0">
+    <!-- ======= ARTIKKELBILDE MED TEKST PÅ HØYRE SIDE ======= -->
+<div class="fade-down-anim max-w-4xl mx-auto my-12 flex flex-col md:flex-row items-center md:items-start gap-8">
+    <div class="md:w-1/2 w-full">
+       <a href="images/OssAlle.jpeg" target="_blank" rel="noopener">
+            <img class="fade-down-anim w-full h-auto rounded-lg shadow glowing" src="images/OssAlle.jpeg" alt="Article image">
+       </a>
+       <p></p>
+        <a href="images/CollBlanc1.jpeg" target="_blank" rel="noopener">
+            <img class="fade-down-anim w-full h-auto rounded-lg shadow glowing" src="images/CollBlanc1.jpeg" alt="Afterski">
+        </a>
+    </div>
+    <div class="md:w-1/2 w-full">
+        <h2 class="text-2xl font-bold mb-4">Hva er Pyrra?</h2>
+        <p class="mb-4">
+            Pyrra er forkortelse for Pyrenéene, som er en fjellkede mellom Spania og Frankrike. I bunn og grunn, hver vinterferie arrangerer ANSA Toulouse skitur til Pas de la Casa i Andorra, en liten fjellby ved grensen mellom Frankrike og Andorra, på hele 2080 m.o.h.! Turen varer i fire dager, som oftest fra lørdag til tirsdag. Her koser vi oss, står masse på ski og viser sør-europeerne hvordan nordmenn gjennomfører Afterski! 
+            <br>
+            <b>Honorable mention:</b> Gutta fra INSA bruker å klippe mullet før Pyrra, så vi kjører slalom, 90's style!
+        </p>
+        <p class="mb-4">
+          Turen har som oftest en egenandel på rundt 3500-4000kr og antall påmeldte ligger som oftest rundt 30 personer. ANSA Toulouse står for transport og losji, samt restaurantbesøk i Pas de la Casa. De bestiller også hettegensere til alle deltakerne, som matcher! Derfor er det veldig moro å se nordmennene som kjører nedover bakken i Grandvalira i like farger.
+	</p>
+	<p class="mb-4"> 
+	  Andorra er ikke i EU, så europeisk helsetrygdkort er ikke gyldig, samt er pass/ID-kort obligatorisk om man skal overnatte. Bruk av telefon-tjenester som 4G, tale eller SMS kan bli dyrt om man ikke følger med.
+	</p>
+    </div>
+</div>
+
+<!-- ======= ARTIKKELBILDE MED TEKST PÅ VENSTRE SIDE ======= -->
+<div class="fade-down-anim max-w-4xl mx-auto my-12 flex flex-col md:flex-row items-center md:items-start gap-8">
+  <div class="md:w-1/2 w-full order-2 md:order-1">
+      <h2 class="text-2xl font-bold mb-4">Anlegget - Grandvalira</h2>
+        <p class="mb-4">
+          Grandvalira er skianlegget hvor vi står på ski. Dette skisystemet er kjempestort, da det beveger seg innover i Andorra. I motsetning til norske skianlegg, som oftest baserer seg rundt et fjell, kjører man opp og ned fjell innover i Andorra. Det følger med lunsj i skibilletten, den bruker vi å ta på Solanelles.
+	  
+	<p class="mb-4"> 
+          Bakkene er veldig gode, men vi kan observere at det er varmt om dagene. Hvis skituren finner sted sent i sesongen er det mye mindre snø utenfor løypene enn når turen er tidlig i sesongen. Grunnet at det er såpass varmt er det fullt mulig å kjøre i hettegenser. 
+        </p>
+      <p class="mb-4"><i>Til høyre. Skikart over systemet og Solanelles restauranten midt i Grandvalira Ski Resort.</i></p>
+	</p> 
+  </div>
+  <div class="md:w-1/2 w-full order-1 md:order-2">
+    <a href="images/GrandValiraPists.jpg" target="_blank" rel="noopener">
+      <img class="fade-down-anim w-full h-auto rounded-lg shadow glowing" src="images/GrandValiraPists.jpg" alt="Article image">
+    </a>
+    <a href="images/SolanellesResto.jpg" target="_blank" rel="noopener">
+      <img class="fade-down-anim w-full h-auto rounded-lg shadow glowing" src="images/SolanellesResto.jpg" alt="Article image">
+    </a>
+  </div>
+</div>
+
+
+    <!-- ======= ARTIKKELBILDE MED TEKST PÅ HØYRE SIDE ======= -->
+<div class="fade-down-anim max-w-4xl mx-auto my-12 flex flex-col md:flex-row items-center md:items-start gap-8">
+    <div class="md:w-1/2 w-full">
+       <a href="images/Middag2025.JPG" target="_blank" rel="noopener">
+            <img class="fade-down-anim w-full h-auto rounded-lg shadow glowing" src="images/Middag2025.JPG" alt="Article image">
+        </a>
+    </div>
+    <div class="md:w-1/2 w-full">
+        <h2 class="text-2xl font-bold mb-4">Ablegøyer i Pyrenéene</h2>
+        <p class="mb-4">
+          Afterski finner sted på Coll Blanc, som ligger på toppen av Pas de la Casa. Dette gjør at Afterskien kan vare til etter at heisene er stengte. Gitt at Andorra er et skatteparadis er det meste veldig billig. Pris på kjøtt, snacks, alkohol og tobakk er ekstremt billig. Dette tar studentene ifra Toulouse stor nytte av.
+        </p>
+        <p>
+	  Om kvelden drar vi på restaurant alle sammen ilag. Her spises det god mat og vi hygger oss med de andre medstudentene. Videre bruker vi å møtes på Red Lion, som er en bar i Pas som drives av briter, det er veldig mange briter i Pas de la Casa. Her spilles det fin musikk og baren har biljardbord, fussball og darttavle.
+        </p>
+    </div>
+</div>
+
+<!-- ======= FIRE BILDER ======= -->
+ 
+<div class="my-12 fade-down-anim max-w-4xl mx-auto my-12">
+  <h2 class="text-2xl font-bold mb-4">Pyrragenserene opp igjennom årene</h2>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div>
+      <a href="images/Middag2022.jpeg" target="_blank" rel="noopener">
+        <img src="images/Middag2022.jpeg" alt="Bilde 1" class="w-full h-40 object-cover rounded-lg shadow glowing" />
+      </a>
+    </div>
+    <div>
+      <a href="images/Middag2023.jpg" target="_blank" rel="noopener">
+        <img src="images/Middag2023.jpg" alt="Bilde 2" class="w-full h-40 object-cover rounded-lg shadow glowing" />
+      </a>
+    </div>
+    <div>
+      <a href="images/rosa.jpg" target="_blank" rel="noopener">
+        <img src="images/rosa.jpg" alt="Bilde 3" class="w-full h-40 object-cover rounded-lg shadow glowing" />
+      </a>
+    </div>
+    <div>
+      <a href="images/Middag2025.JPG" target="_blank" rel="noopener">
+        <img src="images/Middag2025.JPG" alt="Bilde 4" class="w-full h-40 object-cover rounded-lg shadow glowing" />
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- ======= Bilder med popup/slideshow ======= -->
+<!--OBS!! Begrenset til én per artikkel-->
+<div id="slideShowModal"></div>
+<div class="my-12 fade-down-anim max-w-4xl mx-auto">
+  <h2 class="text-2xl font-bold mb-4">Pyrra i bilder</h2>
+  <div id="slideshowGrid" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+<script>
+  const slideshowImages = [
+      "images/OscarMedFlaggRiktig.JPG",
+      "images/Skiheis.JPG",
+      "images/PederOl.JPG",
+      "images/PenaBaiona.jpeg",
+      "images/Utsikt.JPG",
+      "images/VetleFlagg.jpeg",
+      "images/AlleFunny.jpeg",
+      "images/HappyJacob.JPG",
+      "images/JeagerNuke.jpeg",
+      "images/MiddagKeeg.jpeg",
+      "images/MulletResto.jpeg",
+      "images/NorskPresens.jpeg",
+      "images/NorskerP.jpeg",
+      "images/Baggis.JPG",
+      "images/HappyJenter1.JPG",
+      "images/GladeGutter2.jpeg",
+      "images/rosaGenser.jpg",
+      "images/falt.jpeg",
+      "images/stolt.jpeg",
+      "images/stoltere.jpeg"
+
+  ];
+</script>
+<script src="../../assets/js/slideshow.js"></script>
+<script>document.getElementById("slideShowModal").innerHTML = getSlideshowPopup()</script>
+</div>
+
+<div class="fade-down-anim max-w-4xl mx-auto my-12">
+  <p>Andreas som forteller om Pyrra:</p>
+</div>
+
+
+<!--Embedded video-->
+<div class="fade-down-anim max-w-4xl mx-auto my-12">
+    
+        <div class="flex justify-center">
+          <div style="width: 400px; max-width: 100%; aspect-ratio: 16/9; position: relative;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/bjyad-iGnjg?loop=1&modestbranding=1&playlist=bjyad-iGnjg&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+          </div>
+        </div>
+</div>
+
+
+</div>
+
+  <!-- Footer Container -->
+  <div id="footer"></div>
+  <script src="../../assets/js/getFooter.js"></script>
+  <script>document.getElementById("footer").innerHTML = getFooterHTML();</script>
+
+  <!-- Floating Theme Toggle Button -->
+  <div id="floatingButton"></div>
+  <script src="../../assets/js/getFloatingButton.js"></script>
+  <script>document.getElementById("floatingButton").innerHTML = getFloatingButton();</script>
+
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../../assets/js/bunnscript.js"></script>
+</body>
+
+</html>
