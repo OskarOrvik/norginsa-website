@@ -1,6 +1,17 @@
 {
   "templates": [
     {
+      "name": "MIC",
+      "description": "Informasjon om PO'en MIC",
+      "folder": "mic",
+      "tags": [
+        "Studiet"
+      ],
+      "author": "Andreas Holmsen",
+      "created": "24-11-2025",
+      "featured": true
+    },
+    {
       "name": "Hvorfor skal man like Toulouse?",
       "description": "Oskar forteller hva han synes er bra med Toulouse",
       "folder": "hvorforliketoulouse",
