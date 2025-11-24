@@ -1,4 +1,3 @@
-
 const sidebarOpenBtn = document.getElementById('sidebarOpenBtn');
 const sidebarCloseBtn = document.getElementById('sidebarCloseBtn');
 const sidebarOverlay = document.getElementById('sidebarOverlay');
@@ -31,14 +30,14 @@ window.addEventListener('keydown', e => { if (e.key === 'Escape') closeSidebar()
 
 // Theme icon switching
 function updateThemeIcons() {
-    const isDark = root.classList.contains('dark');
+    const isDark = document.documentElement.classList.contains('dark');
     navSun && navSun.classList.toggle('hidden', !isDark);
     navMoon && navMoon.classList.toggle('hidden', isDark);
     sidebarSun && sidebarSun.classList.toggle('hidden', !isDark);
     sidebarMoon && sidebarMoon.classList.toggle('hidden', isDark);
 }
 function toggleTheme() {
-    const isDark = root.classList.toggle('dark');
+    const isDark = document.documentElement.classList.toggle('dark');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
     updateThemeIcons();
 }
@@ -47,9 +46,9 @@ sidebarThemeToggle && sidebarThemeToggle.addEventListener('click', toggleTheme);
 
 (function initTheme() {
     const saved = localStorage.getItem('theme');
-    if (saved === 'dark') root.classList.add('dark');
-    else if (saved === 'light') root.classList.remove('dark');
-    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) root.classList.add('dark');
-    else root.classList.remove('dark');
+    if (saved === 'dark') document.documentElement.classList.add('dark');
+    else if (saved === 'light') document.documentElement.classList.remove('dark');
+    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.classList.add('dark');
+    else document.documentElement.classList.remove('dark');
     updateThemeIcons();
 })();
