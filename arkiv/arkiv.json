@@ -67,6 +67,17 @@
       "featured": true
     },
     {
+      "name": "Ferieplan",
+      "description": "Ferieplan for 25-26 og generelle regler",
+      "folder": "ferier",
+      "tags": [
+        "Diverse info"
+      ],
+      "author": "Andreas Holmsen",
+      "created": "24-11-2025",
+      "featured": false
+    },
+    {
       "name": "eksempelartikkel",
       "description": "Kort introduksjon",
       "folder": "eksempelartikkel",
