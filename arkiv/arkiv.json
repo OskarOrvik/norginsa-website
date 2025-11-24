@@ -1,5 +1,16 @@
 {
   "templates": [
+    {
+      "name": "Jesper falt for det gode studentmiljøet i Toulouse",
+      "description": "Studenthistorie med Jesper Nytun",
+      "folder": "jesper_falt_det_gode_studentmiljoet_i_toulouse",
+      "tags": [
+        "Studenthistorier"
+      ],
+      "author": "Utdanning.no",
+      "created": "07-10-2025",
+      "featured": true
+    },
      {
       "name": "Kart over INSA",
       "description": "Kart over INSA",
