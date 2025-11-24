@@ -274,10 +274,10 @@
           }
           list.forEach(t => {
             const card = document.createElement("div");
-            card.className = "bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition overflow-hidden";
+            card.className = "bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col h-full";
             card.innerHTML = `
               <img src="arkiv/${t.folder}/images/preview.jpg" alt="${t.name}" class="w-full h-48 object-cover rounded-t-lg" />
-              <div class="p-4 flex flex-col h-full">
+              <div class="p-4 flex flex-col flex-1">
                 <div class="flex items-center justify-between mb-2">
                   <h3 class="text-xl font-bold">${t.name}</h3>
                   ${t.featured ? '<span class="bg-yellow-400 text-xs px-2 py-1 rounded text-black">Featured</span>' : ''}
@@ -287,9 +287,9 @@
                   ${t.tags.map(tag => `<span class="bg-red-100 text-red-700 dark:bg-red-700 dark:text-white px-2 py-1 rounded">${tag}</span>`).join("")}
                 </div>
                 <div class="text-xs text-gray-500 dark:text-gray-400 mb-3">
-                  By <strong>${t.author}</strong> · ${t.created}
+                  Skrevet av <strong>${t.author}</strong> · ${t.created}
                 </div>
-                <div class="flex gap-3">
+                <div class="flex gap-3 mt-auto">
                   <a href="arkiv/${t.folder}/${t.folder}.html" target="_blank"
                     class="flex-1 bg-gradient-to-r from-red-600 to-red-500 text-white text-center px-4 py-2 rounded-lg shadow-md hover:from-red-700 hover:to-red-600 transition-all duration-200">
                     Les mer
