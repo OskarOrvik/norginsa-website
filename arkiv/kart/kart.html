@@ -1,0 +1,95 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="en" class="scroll-smooth">
+
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Kart over INSA – NORGINSA</title>
+
+      <!-- Tailwind + AOS CSS -->
+      <link rel="stylesheet" href="../../assets/css/article.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <script>tailwind.config = { darkMode: 'class' }</script>
+    </head>
+
+    <body
+      class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300 relative font-sans">
+
+      <!-- Navbar -->
+      <div id="navbar"></div>
+      <script src="../../assets/js/getNavbar.js"></script>
+      <script>document.getElementById("navbar").innerHTML = getArtikkelNavbarHTML();</script>
+      <script src="../../assets/js/navbar.js"></script>
+
+
+    <!-- ======= TITTEL ======= -->
+      <section class="fade-down-anim max-w-7xl mx-auto px-4">
+        <div class="rounded-2xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800">
+          <div class="px-6 py-16 text-center">
+            <p class="inline-flex items-center gap-2 text-sm font-medium text-red-600 dark:text-red-400">
+              SIST OPPDATERT: 24.11.2025
+            </p>
+            <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold tracking-tight">
+                Kart over INSA
+            </h1>
+            <p class="mt-3 text-base sm:text-lg text-gray-600 dark:text-gray-300">
+              SKREVET AV: Andreas Holmsen 
+            </p>
+          </div>
+        </div>
+      </section>
+ 
+  <div class="mx-2 md:mx-0">
+   
+<!-- ======= Bilder med popup/slideshow ======= -->
+<!--OBS!! Begrenset til én per artikkel-->
+<div id="slideShowModal"></div>
+<div class="my-12 fade-down-anim max-w-4xl mx-auto">
+  <div id="slideshowGrid" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+<script>
+  const slideshowImages = [
+    "images/kart-campus-1.jpg",
+    "images/kart-campus-2.jpg"
+  ];
+</script>
+<script src="../../assets/js/slideshow.js"></script>
+<script>document.getElementById("slideShowModal").innerHTML = getSlideshowPopup()</script>
+</div>
+
+<div class="fade-down-anim max-w-4xl mx-auto my-12">
+
+    <p><a href="./assets/kart-campus.pdf" class="text-red-600 hover:text-red-800" target="_blank" rel="noopener">Lenke til PDF</a></p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+      <!-- Footer Container -->
+      <div id="footer"></div>
+      <script src="../../assets/js/getFooter.js"></script>
+      <script>document.getElementById("footer").innerHTML = getFooterHTML();</script>
+
+      <!-- Floating Theme Toggle Button -->
+      <div id="floatingButton"></div>
+      <script src="getFloatingButton.js"></script>
+      <script>document.getElementById("floatingButton").innerHTML = getFloatingButton();</script>
+
+
+      <!-- Scripts -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="../bunnscript.js"></script>
+    </body>
+
+    </html>
