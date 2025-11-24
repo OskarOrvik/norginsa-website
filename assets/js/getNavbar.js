@@ -65,9 +65,11 @@ function getNavbarHTML() {
     </div>
 
     <!-- Mobile Sidebar -->
-    <nav id="mobileSidebar" class="fixed top-0 left-0 h-full min-h-screen w-[90vw] max-w-xs min-w-[240px] bg-white dark:bg-gray-900 border-r border-red-100/30 dark:border-gray-800/70 shadow-lg z-50
-    transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col md:hidden
-    overflow-y-auto backdrop-blur-md" aria-label="Mobile sidebar navigation" tabindex="-1" style="padding:0.75rem 0.9rem;">
+    <nav id="mobileSidebar"
+      class="fixed top-0 left-0 bottom-0 h-[100dvh] w-[90vw] max-w-xs min-w-[240px] bg-white dark:bg-gray-900 border-r border-red-100/30 dark:border-gray-800/70 shadow-lg z-50
+      transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col md:hidden
+      overflow-y-auto backdrop-blur-md"
+      aria-label="Mobile sidebar navigation" tabindex="-1" style="padding:0.75rem 0.9rem;">
       <div class="flex items-center justify-between mb-3">
         <span href="index.html" class="text-lg sm:text-xl font-bold text-red-600">NORGINSA</span>
         <button id="sidebarCloseBtn" aria-label="Close Menu"
@@ -108,7 +110,7 @@ function getNavbarHTML() {
         </button>
       </div>
     </nav>
-  </header>
+  </header><div class="pt-24"></div>
   `}
 
 function getArtikkelNavbarHTML() {
@@ -176,9 +178,11 @@ function getArtikkelNavbarHTML() {
       class="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity md:hidden">
     </div>
     <!-- Mobile Sidebar -->
-    <nav id="mobileSidebar" class="fixed top-0 left-0 h-full min-h-screen w-[90vw] max-w-xs min-w-[240px] bg-white dark:bg-gray-900 border-r border-red-100/30 dark:border-gray-800/70 shadow-lg z-50
-    transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col md:hidden
-    overflow-y-auto backdrop-blur-md" aria-label="Mobile sidebar navigation" tabindex="-1" style="padding:0.75rem 0.9rem;">
+    <nav id="mobileSidebar"
+      class="fixed top-0 left-0 bottom-0 h-[100dvh] w-[90vw] max-w-xs min-w-[240px] bg-white dark:bg-gray-900 border-r border-red-100/30 dark:border-gray-800/70 shadow-lg z-50
+      transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col md:hidden
+      overflow-y-auto backdrop-blur-md"
+      aria-label="Mobile sidebar navigation" tabindex="-1" style="padding:0.75rem 0.9rem;">
       <div class="flex items-center justify-between mb-3">
         <span href="../../index.html" class="text-lg sm:text-xl font-bold text-red-600">NORGINSA</span>
         <button id="sidebarCloseBtn" aria-label="Close Menu"
