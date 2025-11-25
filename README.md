@@ -6,7 +6,6 @@ Hva som mangler:
 - [ ] Legge til oppsummering av NORGINSA-programmet på /about.html siden
 - [ ] Passe på at tekstboksen i /arkiv.html er trygg og ikke kan ødelegge siden
 - [ ] Skrive masse artikler!
-    - [ ] TEKNA-Toulouse - Maia fikser
     - [ ] ANSA-Toulouse - Aleksander skriver
     - [ ] PO-er
       - [ ] IMACS
@@ -15,9 +14,7 @@ Hva som mangler:
     - [ ] Arrangementer
       - [ ] Vintur
       - [ ] Julebord
-      - [ ] PYRRA - Brage skriver
       - [ ] 17. Mai
-      - [ ] Sommerlunsj
       - [ ] Afterworks
       - [ ] PK
       - [ ] BOOM

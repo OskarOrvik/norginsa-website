@@ -1,6 +1,17 @@
 {
   "templates": [
     {
+      "name": "Tekna Toulouse",
+      "description": "Gjengen som gir deg en sosial, lærerik og uforglemmelig studiehverdag",
+      "folder": "Tekna_Toulouse",
+      "tags": [
+        "Studiehverdagen", "Vintur", "Sommerlunsj", "Tekna"
+      ],
+      "author": "Wiktor Jankowski og Maia Evensen",
+      "created": "08-11-2025",
+      "featured": true
+    },
+    {
       "name": "Pyrra",
       "description": "Pyrratur!",
       "folder": "pyrra",
@@ -16,7 +27,7 @@
       "description": "Tekna Toulouse sitt mest solfylte arrangement!",
       "folder": "sommerlunsj",
       "tags": [
-        "Tradisjoner"
+        "Tradisjoner", "Tekna"
       ],
       "author": "Andreas Holmsen",
       "created": "07-10-2025",
@@ -98,17 +109,6 @@
       "author": "Andreas Holmsen",
       "created": "24-11-2025",
       "featured": false
-    },
-    {
-      "name": "Tekna Toulouse",
-      "description": "Gjengen som gir deg en sosial, lærerik og uforglemmelig studiehverdag",
-      "folder": "Tekna_Toulouse",
-      "tags": [
-        "Studiehverdagen", "Vintur", "Sommerlunsj"
-      ],
-      "author": "Wiktor Jankowski og Maia Evensen",
-      "created": "08-11-2025",
-      "featured": true
     },
     {
       "name": "eksempelartikkel",
