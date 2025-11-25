@@ -44,21 +44,8 @@
       "author": "Oskar Orvik",
       "created": "25-11-2025",
       "featured": true
-    }
-    "templates": [
+    },
     {
-      "name": "Hvorfor burde DU lære deg fransk?",
-      "description": "Fortalt av en som ikke kunne fransk fra før",
-      "folder": "hvorforfransk",
-      "tags": [
-        "Studenthistorier"
-      ],
-      "author": "Oskar Orvik",
-      "created": "24-11-2025",
-      "featured": false
-    }
-      {
->>>>>>> 390a728 (Legg til artikkel om jul i  Toulouse)
       "name": "Jesper falt for det gode studentmiljøet i Toulouse",
       "description": "Studenthistorie med Jesper Nytun",
       "folder": "jesper_falt_det_gode_studentmiljoet_i_toulouse",
@@ -129,7 +116,7 @@
       "description": "Ferieplan for 25-26 og generelle regler",
       "folder": "ferier",
       "tags": [
-        "Diverse info"
+        "Studiehverdagen"
       ],
       "author": "Andreas Holmsen",
       "created": "24-11-2025",
