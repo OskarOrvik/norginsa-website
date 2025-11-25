@@ -100,6 +100,17 @@
       "featured": false
     },
     {
+      "name": "Tekna Toulouse",
+      "description": "Gjengen som gir deg en sosial, lærerik og uforglemmelig studiehverdag",
+      "folder": "Tekna_Toulouse",
+      "tags": [
+        "Studiehverdagen", "Vintur", "Sommerlunsj"
+      ],
+      "author": "Wiktor Jankowski og Maia Evensen",
+      "created": "08-11-2025",
+      "featured": true
+    },
+    {
       "name": "eksempelartikkel",
       "description": "Kort introduksjon",
       "folder": "eksempelartikkel",
