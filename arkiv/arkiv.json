@@ -1,6 +1,7 @@
 {
   "templates": [
     {
+
       "name": "Tekna Toulouse",
       "description": "Gjengen som gir deg en sosial, lærerik og uforglemmelig studiehverdag",
       "folder": "Tekna_Toulouse",
@@ -34,6 +35,30 @@
       "featured": true
     },
     {
+      "name": "Jul i Toulouse",
+      "description": "Hvordan feirer man jul i Sør-Frankrike?",
+      "folder": "julitoulouse",
+      "tags": [
+        "Studiehverdagen"
+      ],
+      "author": "Oskar Orvik",
+      "created": "25-11-2025",
+      "featured": true
+    }
+    "templates": [
+    {
+      "name": "Hvorfor burde DU lære deg fransk?",
+      "description": "Fortalt av en som ikke kunne fransk fra før",
+      "folder": "hvorforfransk",
+      "tags": [
+        "Studenthistorier"
+      ],
+      "author": "Oskar Orvik",
+      "created": "24-11-2025",
+      "featured": false
+    }
+      {
+>>>>>>> 390a728 (Legg til artikkel om jul i  Toulouse)
       "name": "Jesper falt for det gode studentmiljøet i Toulouse",
       "description": "Studenthistorie med Jesper Nytun",
       "folder": "jesper_falt_det_gode_studentmiljoet_i_toulouse",
